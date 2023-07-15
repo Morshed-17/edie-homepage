@@ -34,6 +34,9 @@ p {
   align-items: center;
   margin-top: 51px;
 }
+#nav .hamburger {
+  font-size: 30px;
+}
 #nav .logo {
   font-family: "Heebo", sans-serif;
   font-size: 36px;
@@ -51,7 +54,7 @@ p {
   font-weight: 500;
 }
 .banner-section {
-    margin-top: 141px;
+  margin-top: 141px;
 }
 .banner-section > div {
   text-align: left;
@@ -63,6 +66,7 @@ p {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   margin: 42px 0;
 }
 .main-title {
@@ -95,7 +99,7 @@ p {
   margin-bottom: 9px;
 }
 .banner-section form div {
-  width: 88%;
+  width: 90%;
   border-radius: 12px;
   background: #f2f2f2;
   display: flex;
@@ -108,10 +112,10 @@ p {
   font-size: 18px;
   font-weight: 500;
   padding: 15px 21px;
-  width: 60%;
+  width: 100%;
 }
 .banner-section form input[type="email"]:focus {
-    outline: none;
+  outline: none;
 }
 .banner-section form input[type="submit"] {
   color: #f2f2f2;
@@ -121,4 +125,35 @@ p {
   background: #2d9cdb;
   border: none;
   padding: 11px 27px;
+}
+/* good design */
+.good-design {
+  margin-top: 195px;
+}
+.collage-conainer {
+  display: grid;
+  grid-template-rows: repeat(2, 750px);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.good-design h2 {
+  font-size: 32px;
+}
+.good-design h4 {
+  color:#828282;
+  font-size: 14px;
+}
+.good-design h3 {
+  font-size: 24px;
+}
+.collage-conainer img {
+  border-radius: 24px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.img-1 {
+  align-self: end;
+}
+.img-3 {
+  align-self: end;
 }
