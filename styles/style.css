@@ -1,5 +1,124 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+/* shared styles */
+main {
+  max-width: 1140px;
+  margin: auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #333;
+  font-weight: 500;
+}
+p {
+  color: #4f4f4f;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Header styles */
+#header {
+  margin: 0 52px;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 51px;
+}
+#nav .logo {
+  font-family: "Heebo", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+}
+#nav > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  min-width: 50%;
+}
+#nav ul a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+.banner-section {
+    margin-top: 141px;
+}
+.banner-section > div {
+  text-align: left;
+}
+.banner-image {
+  border-radius: 18px;
+  background: url(../images/heroImage.jpg);
+  height: 354px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 42px 0;
+}
+.main-title {
+  padding-left: 277px;
+  max-width: 30%;
+}
+.main-title h4 {
+  color: #2d9cdb;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+.main-title h1 {
+  font-size: 48px;
+}
+
+.second-main-title {
+  padding-left: 277px;
+  max-width: 366px;
+}
+
+.second-main-title h2 {
+  font-size: 48px;
+  margin-bottom: 42px;
+}
+.banner-section form h4 {
+  margin-top: 42px;
+  color: #828282;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 9px;
+}
+.banner-section form div {
+  width: 88%;
+  border-radius: 12px;
+  background: #f2f2f2;
+  display: flex;
+  padding: 4px;
+}
+.banner-section form input[type="email"] {
+  border: none;
+  background: transparent;
+  color: #f8f8f8;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 21px;
+  width: 60%;
+}
+.banner-section form input[type="email"]:focus {
+    outline: none;
+}
+.banner-section form input[type="submit"] {
+  color: #f2f2f2;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 12px;
+  background: #2d9cdb;
+  border: none;
+  padding: 11px 27px;
 }
