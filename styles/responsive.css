@@ -1,7 +1,27 @@
 @media screen and (max-width: 576px) {
+    /* root styles */
+    * {
+        font-size: 10px;
+    }
+    /* shared styles */
+    p {
+        font-size: 16px;
+    }
+
+    /* header styles */
+    #header {
+        margin: 0px 10px;
+    }
     #nav ul {
         display: none;
     }
+    #nav .hamburger {
+        font-size: 30px;
+      }
+      /* header contents */
+      .main-title {
+        max-width: 100%;
+      } 
     .main-title {
         padding-left: 0px;
         max-width: 100%;
