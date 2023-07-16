@@ -176,7 +176,7 @@ p {
 }
 .collage-conainer {
   display: grid;
-  grid-template-rows: repeat(2, 750px);
+  grid-template-rows: repeat(2, 800px);
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
