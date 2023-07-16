@@ -157,17 +157,17 @@ p {
   margin-top: 31px;
   margin-bottom: 24px;
 }
-.btn-primary{
+.btn-primary {
   color: #828282;
   font-weight: 500;
   border-radius: 12px;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
   border: 0;
   padding: 9px 12px;
 }
-.service-box.hovered .btn-primary{
+.service-box.hovered .btn-primary {
   background-color: #2d9cdb;
-  color: #fff ;
+  color: #fff;
 }
 
 /* good design */
@@ -198,4 +198,43 @@ p {
 }
 .img-3 {
   align-self: end;
+}
+/* teams section */
+.teams {
+  margin: 200px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.teams-content {
+  max-width: 280px;
+}
+.teams-content h4 {
+  color: #eb5757;
+  font-size: 18px;
+}
+.team-members-container {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-row: repeat(1,1fr);
+  justify-items: end;
+
+}
+.team-members-container div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  
+  
+}
+.team-members-container div img {
+  align-self: baseline;
+}
+.team-members-container img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+.person-1 {
+  align-self: center;
+
 }
