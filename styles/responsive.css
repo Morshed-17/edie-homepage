@@ -12,6 +12,9 @@
   }
 
   /* header styles */
+  .banner-image {
+    height: 141px;
+}
   #header {
     margin: 0px 10px;
   }
