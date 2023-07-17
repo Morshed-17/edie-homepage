@@ -2,6 +2,10 @@
     /* root styles */
     * {
         font-size: 10px;
+
+    }
+    body {
+        margin: 0 10px;
     }
     /* shared styles */
     p {
@@ -39,10 +43,6 @@
     .banner-section form input[type="email"] {
         width: 100%;
     }
-    /* main */
-    * {
-        margin: 0 4px;
-    }
     /* service section */
     .service .section-title{
         display: flex;
@@ -79,13 +79,13 @@
       /* teams  */
       .teams {
         margin: 100px 0;
+        align-items: baseline;
         flex-direction: column;
       }
       .team-members-container {
        gap: 24px;
       }
       .teams-content {
-        margin:  auto;
         margin-bottom: 30px;
       }
 
