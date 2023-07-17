@@ -37,10 +37,10 @@
     .banner-section {
         margin-top: 48px;
     }
-    .banner-section form div {
+    .email-form div {
         width: 90%;
     }
-    .banner-section form input[type="email"] {
+    .email-form  input[type="email"] {
         width: 100%;
     }
     /* service section */
