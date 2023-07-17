@@ -1,99 +1,102 @@
 @media screen and (max-width: 576px) {
-    /* root styles */
-    * {
-        font-size: 10px;
+  /* root styles */
+  /* * {
+    font-size: 10px;
+  } */
+  body {
+    margin: 0 10px;
+  }
+  /* shared styles */
+  p {
+    font-size: 16px;
+  }
 
-    }
-    body {
-        margin: 0 10px;
-    }
-    /* shared styles */
-    p {
-        font-size: 16px;
-    }
+  /* header styles */
+  #header {
+    margin: 0px 10px;
+  }
+  #nav ul {
+    display: none;
+  }
+  #nav .hamburger {
+    font-size: 30px;
+  }
+  /* header contents */
+  .main-title {
+    max-width: 100%;
+  }
+  .main-title {
+    padding-left: 0px;
+    max-width: 100%;
+  }
+  .second-main-title {
+    padding-left: 0px;
+    max-width: 100%;
+  }
+  .banner-section {
+    margin-top: 48px;
+  }
+  .email-form div {
+    width: 90%;
+  }
+  .email-form input[type="email"] {
+    width: 100%;
+  }
+  /* service section */
+  .service .section-title {
+    display: flex;
+    justify-content: center;
+  }
+  .service-container {
+    flex-direction: column;
+  }
+  .service {
+    margin: 50px 0;
+  }
 
-    /* header styles */
-    #header {
-        margin: 0px 10px;
-    }
-    #nav ul {
-        display: none;
-    }
-    #nav .hamburger {
-        font-size: 30px;
-      }
-      /* header contents */
-      .main-title {
-        max-width: 100%;
-      } 
-    .main-title {
-        padding-left: 0px;
-        max-width: 100%;
-    }
-    .second-main-title {
-        padding-left: 0px;
-        max-width: 100%;
-    }
-    .banner-section {
-        margin-top: 48px;
-    }
-    .email-form div {
-        width: 90%;
-    }
-    .email-form  input[type="email"] {
-        width: 100%;
-    }
-    /* service section */
-    .service .section-title{
-        display: flex;
-        justify-content: center;
-    }
-    .service-container {
-        flex-direction: column;
-    }
-    .service {
-        margin: 50px 0;
-    }
-
-    /* good design */
-    .good-design {
-        margin-top: 50px;
-    }
-    .good-design h2 {
-        padding-bottom: 48px;
-        justify-content: center;
-        display: flex;
-    }
-    .collage-conainer {
-        display: grid;
-        grid-template-rows: repeat(4,1fr);
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
-      }
-      .img-1 {
-        align-self: self-start;
-      }
-      .img-3 {
-        align-self: self-start;
-      }
-      /* teams  */
-      .teams {
-        margin: 100px 0;
-        align-items: baseline;
-        flex-direction: column;
-      }
-      .team-members-container {
-       gap: 24px;
-      }
-      .teams-content {
-        margin-bottom: 30px;
-      }
-
-
-
-
-
-
-
-
+  /* good design */
+  .good-design {
+    margin-top: 50px;
+  }
+  .good-design h2 {
+    padding-bottom: 48px;
+    justify-content: center;
+    display: flex;
+  }
+  .collage-conainer {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .img-1 {
+    align-self: self-start;
+  }
+  .img-3 {
+    align-self: self-start;
+  }
+  /* teams  */
+  .teams {
+    margin: 100px 0;
+    align-items: baseline;
+    flex-direction: column;
+  }
+  .team-members-container {
+    gap: 24px;
+  }
+  .teams-content {
+    margin-bottom: 30px;
+  }
+  /* footer  */
+  .footer-container {
+    flex-direction: column;
+    padding: 40px 30px;
+  }
+  .footer-links {
+    margin: 64px 0;
+  }
+  .footer-container .email-form{
+    margin-top: 64px;
+    width: 109%;
+  }
 }

@@ -117,7 +117,7 @@ p {
   padding: 15px 21px;
   width: 100%;
 }
-.email-form  input[type="email"]:focus {
+.email-form input[type="email"]:focus {
   outline: none;
 }
 .email-form input[type="submit"] {
@@ -215,17 +215,14 @@ p {
 }
 .team-members-container {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-row: repeat(1,1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-row: repeat(1, 1fr);
   justify-items: end;
-
 }
 .team-members-container div {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  
-  
 }
 .team-members-container div img {
   align-self: baseline;
@@ -236,7 +233,6 @@ p {
 }
 .person-1 {
   align-self: center;
-
 }
 /* testimonial section */
 .testimonial {
@@ -251,19 +247,50 @@ p {
   border-radius: 5px;
   width: 82px;
   margin-right: 30px;
-
 }
 .avatar-container {
   display: flex;
   align-items: center;
-
 }
 .avatar-container h3 {
-      font-size: 1.5rem; 
-      margin-bottom: 12px;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
 }
 .avatar-container h4 {
-      font-size: 1.1rem; 
-      color: #828282;
+  font-size: 1.1rem;
+  color: #828282;
+}
 
+/* footer section */
+footer {
+  background: #100e1d;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 46px;
+  padding-bottom: 118px;
+  align-items: baseline;
+}
+.footer-links {
+  list-style: none;
+}
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 2.25rem;
+}
+.footer-container h2 {
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-size: 2.25rem;
+  font-weight: 800px;
+  margin-bottom: 10px;
+}
+.email-form h4 {
+  margin-top: 0px;
+  font-size: 1rem;
+  color: #fff;
 }
